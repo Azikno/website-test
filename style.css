@@ -7,13 +7,44 @@ body {
     background-size: cover;
     margin-bottom: 0px!important;
 }
-div{
+/* general typography and layout */
+body {
     font-family: 'Geomanist', sans-serif;
     font-weight: normal;
     color: white;
-    width: 50%;
+}
+
+/* container that centers its content and constrains width */
+.inner {
+    width: 80%;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
     position: relative;
     top: 30%;
     transform: translateY(-50%);
+    text-align: center;
+}
+
+/* reset headings color (in case background is dark) */
+h1, h2, h4 {
+    color: white;
+}
+
+/* video should scale responsively */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+/* list styling */
+ul {
+    text-align: left;
+    display: inline-block;
+}
+
+li {
+    margin-bottom: 0.5rem;
 }
