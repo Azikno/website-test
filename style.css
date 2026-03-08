@@ -3,48 +3,18 @@ body {
     background-image: linear-gradient(-74deg, transparent 90%, rgba(255, 255, 255, 0.23) 20%),
                       linear-gradient(-74deg, transparent 83%, rgba(255, 255, 255, 0.18) 15%),
                       linear-gradient(-74deg, transparent 76%, rgba(255, 255, 255, 0.1) 15%),
-                      linear-gradient(to top, #000000, #000000, #000000);
+                      linear-gradient(to top, #127ab1, #1799e0, #1796db);
     background-size: cover;
     margin-bottom: 0px!important;
 }
-/* general typography and layout */
-body {
+div{
     font-family: 'Geomanist', sans-serif;
     font-weight: normal;
     color: white;
-}
-
-/* container that centers its content and constrains width */
-.inner {
-    width: 80%;
-    max-width: 800px;
+    width: 50%;
     margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    top: 30%;
-    transform: translateY(-50%);
-    text-align: center;
-}
-
-/* reset headings color (in case background is dark) */
-h1, h2, h4 {
-    color: rgb(235, 235, 235);
-}
-
-/* video should scale responsively */
-video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 1rem;
-}
-
-/* list styling */
-ul {
-    text-align: left;
-    display: inline-block;
-}
-
-li {
-    margin-bottom: 0.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
 }
